@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+/* font-family: 'Cinzel', serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/* font-family: 'Bebas Neue', sans-serif; */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-section{
+    background: rgb(122,45,112);
+    background: radial-gradient(circle, rgba(122,45,112,1) 16%, rgba(134,44,142,1) 28%, rgba(74,32,82,1) 49%, rgba(39,41,108,1) 77%, rgba(51,38,96,1) 89%);
+}
+
+.main-title{
+    font-family: 'Cinzel', serif;
+    color: blueviolet;
+    text-shadow: black 2px 2px;
+    font-size: 5.5rem;
+    text-align: center;
+}
+
+.BG-button:hover, .Class-button:hover,
+.Gallery-button:hover{
+    background-color: purple;
+    filter: brightness(120%) saturate(120%);
+
+}
